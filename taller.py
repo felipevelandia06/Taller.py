@@ -126,3 +126,39 @@ else: print('Su perro mestizo no tiene medidas para catalogarlo en un tamaño es
 '''principal()'''
 
 #ejercicio5
+'''def menu():
+  print('ingrese el codigo correspondiente a la figura que desee calcular el volumen
+1. Cubo
+2. Cilindro
+3. Esfera)'''
+
+'''def cubo():
+  lado=float(input('ingrese el valor de un lado (m) '))
+  vc=lado*lado*lado
+  return vc'''
+
+'''def cilindro():
+  radiob=float(input('ingrese el valor del radio de la base (m) '))
+  altura=float(input('ingrese el valor de la altura (m) '))
+  vc=3.1416*(radiob**2)*altura
+  return vc'''
+
+'''def esfera():
+  radio=float(input('ingrese el valor del radio (m) '))
+  ve=(4/3)*3.1416*(radio**3)
+  return ve'''
+
+'''def principal():
+  menu()
+  codigo=int(input())
+  if codigo==1:
+    print('el volumen del cubo es', cubo(), 'm3')
+  elif codigo==2:
+    print('el volumen del cilindro es ', cilindro(), 'm3')
+  elif codigo==3:
+    print('el volumen de la esfera es ', esfera(), 'm3')
+  else: print('codigo no valido')'''
+
+'''principal()'''
+
+#ejercicio6
